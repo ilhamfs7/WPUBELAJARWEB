@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Input Atribut, Radio, & CheckBox</title>
+</head>
+<body>
+    <form>
+        <h1>Contoh elemen pada form HTML</h1>
+    
+        <label for="nama">Nama:
+            <input type="text" name="nama" id="nama" placeholder="Masukkan nama" autocomplete="off" autofocus required>
+        </label>
+        <br>
+        
+        <h3>Hobi</h3>
+        <label for="hobi1">Membaca
+            <input type="checkbox" name="hobi" id="hobi1" value="membaca" checked>
+        </label>
+        <label for="hobi2">Menulis
+            <input type="checkbox" name="hobi" id="hobi2" value="menulis">
+        </label>
+
+        <h3>Gender</h3>
+        <label for="gender1">Laki-laki
+            <input type="radio" name="gender" id="gender1" value="laki-laki" checked>
+        </label>
+        <label for="gender2">Perempuan
+            <input type="radio" name="gender" id="gender2" value="perempuan">
+        </label>
+
+        <br>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
